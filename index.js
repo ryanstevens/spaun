@@ -18,8 +18,7 @@ module.exports = function cmd() {
   });
 
   status.stderr.on('data', function (data) {
-    console.error(data.toString('utf8'));
-    cb(data, null);
+    cb(data.toString('utf8'), null);
   });
 
   return status.stdout;
