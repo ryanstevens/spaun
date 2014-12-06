@@ -1,0 +1,11 @@
+{
+  "name": "spaun",
+  "version": "1.0.0",
+  "description": "Spawn and receive standard out in a string (not in a stream)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Stevens",
+  "license": "MIT"
+}
